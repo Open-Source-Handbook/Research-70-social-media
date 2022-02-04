@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+	<html dir="rtl" lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta property="og:title" content="دليل المصادر المفتوحة" />
+		<meta property="og:description" content="  نقدم الخدمات التقنية للصحفيين والمؤسسات العربية " />
+		<meta property="og:image" content="https://scontent.fcai20-6.fna.fbcdn.net/v/t39.30808-6/p180x540/243256435_180094877593908_4372607081231701407_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=e3f864&_nc_ohc=ziJVkQPOreQAX-lx8B7&_nc_ht=scontent.fcai20-6.fna&oh=00_AT8UmvQlClVjmF74UEzAALkVkAYt5TWBupXQC8kO7mHOHw&oe=6201B5A0" />
+
+		<link rel="stylesheet" href="style.css" />
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+		 crossorigin="anonymous" />
+		<title>دليل المصادر المفتوحة</title>
+
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="nav-container">
+				<nav>
+					<h3>
+						<a href="./index.html" class="logo"> البحث في وسائل التواصل الاجتماعي
+					</h3>
+          <ul>
+            <li><a href="https://open-source-handbook.github.io/Search-tools/index.html">الصفحة الرئيسية</a></li>
+            </ul>
+    
+				</nav>
+			</div>
+       
+    <form>
+				<div class="shehata-btn">
+
+          <div class="form-group">
+                  <label>اكتب ما تبحث عنه هنا:</label>
+                  <input type="text" class="form-control" value="مثال: دليل المصادر المفتوحة" id="searchquery">
+              
+          
+				 
+               <button type="button" onclick="buttonOpen('Facebook')"  class="shehata-btn">فيسبوك</button>
+               <button type="button" onclick="buttonOpen('Instagram')"   class="shehata-btn">انستجرام</button>
+               <button type="button" onclick="buttonOpen('Twitter')"  " class="shehata-btn">تويتر</button>
+               <button type="button" onclick="buttonOpen('Pinterest')"   class="shehata-btn">بينتريست</button>
+               <button type="button" onclick="buttonOpen('Tumblr')"  class="shehata-btn">تمبلر</button>
+               <button type="button" onclick="buttonOpen('Myspace')"   class="shehata-btn">ماي سبيس</button>
+           
+               <button type="button" onclick="buttonOpen('Tiktok')" class="shehata-btn">تيك توك</button> 
+               <button type="button" onclick="buttonOpen('Vimeo')"  class="shehata-btn">فيمو</button>
+               <button type="button" onclick="buttonOpen('Snapchat')"  class="shehata-btn">سناب شات</button> 
+               <button type="button" onclick="buttonOpen('Youtube')"   class="shehata-btn">يوتيوب</button>
+               <button type="button" onclick="buttonOpencolor:white" class="shehata-btn">تويتش</button>
+               <button type="button" onclick="buttonOpen('Thriller')" class="shehata-btn">Thriller.co</button>
+               <button type="button" onclick="buttonOpen" class="shehata-btn">لايك</button>
+               <button type="button" onclick="buttonOpen('Reddit')"  class="shehata-btn">ريديت</button>
+               <button type="button" onclick="buttonOpen('Medium')"  class="shehata-btn">ميديم</button>
+               <button type="button" onclick="buttonOpen('Fark')"  class="shehata-btn">فيكر</button>
+               <button type="button" onclick="buttonOpen('Digg')"  class="shehata-btn">ديج</button> 
+               <button type="button" onclick="buttonOpen('Hubpages')"  class="shehata-btn">هوب بيج</button> 
+               <button type="button" onclick="buttonOpen('Slashdots')"   class="shehata-btn">SlashDots</button> 
+            
+               <button type="button" onclick="buttonOpen('Clubhouse')"  class="shehata-btn">ClubHouse</button>
+               <button type="button" onclick="buttonOpen('Reverbnation')"  class="shehata-btn">Reverb Nation</button>  
+               <button type="button" onclick="buttonOpen('Soundcloud')"   class="shehata-btn">Sound Cloud</button> 
+               <button type="button" onclick="buttonOpen('Lastfm')"  class="shehata-btn">Last.fm</button> 
+               <button type="button" onclick="buttonOpen('Bandcamp')"   class="shehata-btn">BandCamp</button> 
+               <button type="button" onclick="buttonOpen('Discogs')"   class="shehata-btn">Discogs</button> 
+        
+               <button type="button" onclick="buttonOpen('Devianart')"   class="shehata-btn">Devianart</button>
+               <button type="button" onclick="buttonOpen('Piscart')"  class="shehata-btn">Picsart</button> 
+               <button type="button" onclick="buttonOpen('Dribbble')"  class="shehata-btn">Dribbble</button> 
+               <button type="button" onclick="buttonOpen('Houzz')"   class="shehata-btn">Houzz</button> 
+               <button type="button" onclick="buttonOpen('Unsplash')" class="shehata-btn">Unsplash</button> 
+               <button type="button" onclick="buttonOpen('Dronestagram')"  class="shehata-btn">Dronestagram</button> 
+               <button type="button" onclick="buttonOpen('Shutterfly')"   class="shehata-btn">Shutterfly</button> 
+               <button type="button" onclick="buttonOpen('Flickr')"  class="shehata-btn">Flickr</button> 
+               <button type="button" onclick="buttonOpen('Behance')"  class="shehata-btn">Behance</button>
+               <button type="button" onclick="buttonOpen('Fotki')"  class="shehata-btn">Fotki</button> 
+               <button type="button" onclick="buttonOpen('Ello')"  class="shehata-btn">Ello</button> 
+               <button type="button" onclick="buttonOpen('Eyeem')"   class="shehata-btn">Eyeem (keywords only)</button> 
+               <button type="button" onclick="buttonOpen('Pixiv')"   class="shehata-btn">Pixiv </button> 
+               <button type="button" onclick="buttonOpen('Youpic')"   class="shehata-btn">YouPic </button>   
+
+            
+               <button type="button" onclick="buttonOpen('Wattpad')"   class="shehata-btn">Wattpad</button> 
+                                                          
+               <button type="button" onclick="buttonOpen('Patreon')"  class="shehata-btn">Patreon</button> 
+               <button type="button" onclick="buttonOpen('KoFi')" class="shehata-btn">Ko-Fi</button> 
+               <button type="button" onclick="buttonOpen('Liberapay')"  class="shehata-btn">Liberapay</button> 
+          
+               <button type="button" onclick="buttonOpen('Quora')"  class="shehata-btn">Quora</button> 
+               <button type="button" onclick="buttonOpen('Steemit')" class="shehata-btn">Steemit</button> 
+               <button type="button" onclick="buttonOpen('Blurtit')"   class="shehata-btn">Blurtit</button> 
+               <button type="button" onclick="buttonOpen('Answerscom')"   class="shehata-btn">Answers</button> 
+               <button type="button" onclick="buttonOpen('Funadvice')"   class="shehata-btn">Funadvice</button> 
+               <button type="button" onclick="buttonOpen('Theanswersbank')"  class="shehata-btn">theanswerbank</button> 
+               <button type="button" onclick="buttonOpen('Askdeb')"  class="shehata-btn">Askdeb</button> 
+               <button type="button" onclick="buttonOpen('Superuser')"   class="shehata-btn">Superuser</button>
+               <button type="button" onclick="buttonOpen('Askubuntu')"   class="shehata-btn">Askubuntu</button> 
+           
+               <button type="button" onclick="buttonOpen('Producthunt')"   class="shehata-btn">Product Hunt</button> 
+               <button type="button" onclick="buttonOpen('Kikstarter')"   class="shehata-btn">Kikstarter</button> 
+               <button type="button" onclick="buttonOpen('Gofundme')"  class="shehata-btn">GoFundMe</button> 
+            
+               <button type="button" onclick="buttonOpen('Girlsaskguys')"  class="shehata-btn">GirlsAskGuys</button> 
+               <button type="button" onclick="buttonOpen('Howcast')"   class="shehata-btn">HowCast</button> 
+               <button type="button" onclick="buttonOpen('Letterboxd')"   class="shehata-btn">LetterBoxd</button> 
+               <button type="button" onclick="buttonOpen('Funnyordie')"  class="shehata-btn">FunnyOrDie</button> 
+               <button type="button" onclick="buttonOpen('Kroogi')" class="shehata-btn">Kroogi</button> 
+               <button type="button" onclick="buttonOpen('Catster')" class="shehata-btn">Catster</button> 
+               <button type="button" onclick="buttonOpen('Dogster')"  class="shehata-btn">Dogster</button> 
+               <button type="button" onclick="buttonOpen('Bucketlist')"  class="shehata-btn">BucketList</button> 
+               <button type="button" onclick="buttonOpen('Flixster')"   class="shehata-btn">Flixster</button> 
+            
+               <button type="button" onclick="buttonOpen('Miarroba')"   class="shehata-btn">Miarroba </button>
+               <button type="button" onclick="buttonOpen('Skyrock')"   class="shehata-btn">Skyrock </button> 
+               <button type="button" onclick="buttonOpen('Wizelife')"  class="shehata-btn">Wize.life </button> 
+               <button type="button" onclick="buttonOpen('Partyflock')"  class="shehata-btn">Partyflock</button> 
+               <button type="button" onclick="buttonOpen('Networkhu')"   class="shehata-btn">Hungary</button> 
+           
+               <button type="button" onclick="buttonOpen('Yandexzen')"   class="shehata-btn">Yandex</button>
+               <button type="button" onclick="buttonOpen('Vkontakte')"   
+               <button type="button" onclick="buttonOpen('myMail')"  class="shehata-btn">My.Mail</button>
+               <button type="button" onclick="buttonOpen('Telegram')"  class="shehata-btn">Telegram </button>
+               <button type="button" onclick="buttonOpen('Livejournal')"  class="shehata-btn">Livejournal</button>
+           
+               <button type="button" onclick="buttonOpen('Zhihu')" class="shehata-btn">Zhihu</button> 
+               <button type="button" onclick="buttonOpen('Toutiao')"   class="shehata-btn">Toutiao</button> 
+               <button type="button" onclick="buttonOpen('Hatena')" class="shehata-btn">Hatena</button> 
+               <button type="button" onclick="buttonOpen('Ameba')"  class="shehata-btn">Ameba</button> 
+               <button type="button" onclick="buttonOpen('Bilibili')"   class="shehata-btn">BiliBili</button> 
+               <button type="button" onclick="buttonOpen('Ixigua')"  class="shehata-btn">Ixigua</button> 
+               <button type="button" onclick="buttonOpen('Huya')"class="shehata-btn">Huya</button> 
+               <button type="button" onclick="buttonOpen('Meipai')" class="shehata-btn">Meipai</button> 
+               <button type="button" onclick="buttonOpen('Douyin')" class="shehata-btn">Douyin</button> 
+               <button type="button" onclick="buttonOpen('Kuaishou')"  class="shehata-btn">Kuaishou</button> 
+               <button type="button" onclick="buttonOpen('Douban')"  class="shehata-btn">Douban</button> 
+               <button type="button" onclick="buttonOpen('Baidutieba')"  class="shehata-btn">Baidu Tieba</button>
+               <button type="button" onclick="buttonOpen('Weibo')"  class="shehata-btn">Sina Weibo</button>
+               
+            </p>
+         </div>
+      </div>
+       </div>
+			</div>
+		</div>
+		</div>
+
+
+		<footer>
+			<p>تصميم شحاته السيد</p>
+		</footer>
+		</div>
+	</body>
+
+	</html>
+ 
